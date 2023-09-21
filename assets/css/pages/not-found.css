@@ -1,0 +1,116 @@
+:root {
+    --font-primary: 'Noto Serif Display', serif;
+    --font-secondary: 'Montserrat', sans-serif;
+
+    --color-black-text: #121221;
+    --color-white: #fff;
+    --color-time: #8C8C8C;
+    --color-border: #BDBDBD;
+    --color-text-desc: #444444;
+    --color-chip-text: #292929;
+    --color-text-search: #072D4B;
+    --color-orange-primary: #F2994A;
+}
+
+.pt33 {
+    padding-top: 33px;
+}
+
+.header__notfound {
+    margin-bottom: 0;
+}
+
+.section__notfound {
+    height: 585px;
+    width: 100%;
+}
+
+.section__notfound .notfound__heading {
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 132px;
+    line-height: 161px;
+    color: #F2994A;
+    text-shadow: 4px 4px 0px rgb(0 0 0 / 25%);
+}
+
+.section__notfound .notfound__desc {
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #232323;
+}
+
+.section__notfound .notfound__homepage {
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #232323;
+}
+
+.section__notfound .notfound__homepage .notfound__homepage--link,
+.section__notfound .notfound__homepage .notfound__homepage--link:hover {
+    font-weight: 700;
+    color: #F2994A;
+    text-decoration: underline;
+}
+
+.section__notfound .notfound__form {
+    max-width: 600px;
+    padding: 40px 0;
+    margin: auto;
+}
+
+.section__notfound .notfound__form .notfound__form--main {
+    position: relative;
+}
+
+.section__notfound .notfound__form .notfound__form--main .notfound__form--button-search {
+    position: absolute;
+    top: auto;
+    left: 0;
+    height: 100%;
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+}
+
+.section__notfound .notfound__form .notfound__form--main .notfound__form--input {
+    width: 100%;
+    height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 16px 30px 16px 45px;
+
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--color-text-search);
+}
+
+.section__notfound .notfound__form .notfound__form--main .notfound__form--input::placeholder {
+    font-family: var(--font-secondary);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #072d4b4d;
+}
+
+@media screen and (max-width: 576px){
+    .section__notfound {
+        height: 100%;
+        padding: 37px 0 60px;
+    }
+}

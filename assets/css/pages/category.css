@@ -1,0 +1,42 @@
+:root {
+
+    --font-primary: 'Noto Serif Display', serif;
+    --font-secondary: 'Montserrat', sans-serif;
+
+    --color-black-text: #121221;
+    --color-white: #fff;
+    --color-time: #8C8C8C;
+    --color-border: #BDBDBD;
+    --color-text-desc: #444444;
+    --color-oranger-text: #F2994A;
+    --color-chip-text: #292929;
+}
+
+.lastest__icon--hot {
+    width: 24px;
+    margin: 0 5px;
+}
+
+.lastest__more,
+.lastest__more:hover {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--font-secondary);
+    color: #000000;
+    margin-top: 40px;
+
+    cursor: pointer;
+}
+
+/* knowleage */
+
+.section__knowleage--category {
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 567px) {
+    .section__knowleage--category {
+        padding-bottom: 84px;
+    }
+}

@@ -1,0 +1,43 @@
+:root {
+    --font-primary: 'Noto Serif Display', serif;
+    --font-secondary: 'Montserrat', sans-serif;
+
+    --color-black-text: #121221;
+    --color-white: #fff;
+    --color-time: #8C8C8C;
+    --color-border: #BDBDBD;
+    --color-text-desc: #444444;
+    --color-chip-text: #292929;
+}
+
+
+.section__tags {
+    margin-bottom: 100px;
+}
+
+.pagination__tags {
+    padding-top: 64px;
+    padding-bottom: 40px;
+}
+
+/* adsenbottom */
+
+/* .adsenbottom {
+    padding: 80px 10px 80px;
+} */
+
+.adsenbottom .adsenbottom__img {
+    width: 730px;
+    max-height: 86px;
+}
+
+@media screen and (max-width: 567px) {
+    .section__tags {
+        margin-bottom: 74px;
+    }
+
+    .pagination__tags {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+}
